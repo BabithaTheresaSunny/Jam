@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="test.css" type="text/css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d50f3b995c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand d-flex flex-column-align-item-start" id="sidebar">
+  <div>
+    hai
+    </div>
+  </nav>
+
+  <section class="p-4 my-container">
+
+    <button class="btn my-4" id="menu-btn">">>"</button>
+    <p>
+      A wiki (/ˈwɪki/ (About this soundlisten) WIK-ee) is a hypertext publication collaboratively edited and managed by its own audience directly using a web browser.
+      A typical wiki contains multiple pages for the subjects or scope of the project and could be either open to the public or limited to use within an organization for
+       maintaining its internal knowledge base.
+
+   Wikis are enabled by wiki software, otherwise known as wiki engines. A wiki engine, being a form of a content management system,
+    differs from other web-based systems such as blog software, in that the content is created without any defined owner or leader, and wikis have
+  little inherent structure, allowing structure to emerge according to the needs of the users.[1] Wiki engines usually allow content to be written using a
+   simplified markup language and sometimes edited with the help of a rich-text editor.[2] There are dozens of different wiki engines in use, both standalone and
+   part of other software, such as bug tracking systems. Some wiki engines are open source, whereas others are proprietary. Some permit control over different functions
+   (levels of access); for example, editing rights may permit changing, adding, or removing material. Others may permit access without enforcing access control. Other rules
+   may be imposed to organize content.
+    </p>
+  </section>
+
+
+ <script>
+   var menu_btn=document.querySelector("#menu-btn")
+   var sidebar=document.querySelector("#sidebar")
+   var container=document.querySelector(".my-container")
+   menu_btn.addEventListener("click",() => {
+     sidebar.classList.toggle("active-nav")
+     container.classList.toggle("active-cont")
+   })
+ </script>
+  </body>
+
+
+  </html>
+  <div class="row pt-3 resbar" style="height:5em;position: fixed;
+      bottom: 49px;
+      left: 0;
+      width: 100%;
+  ">
+    <div class="col-md-6 col-xs-6 flex-md-row-reverse flex-sm-row-reverse border">
+      <button type="button" class="btn btn-white border"data-toggle="tooltip" data-placement="top" title="Mark For Review & Next">Mark For Review & Next</button>
+      <button type="button" class="btn btn-white border"data-toggle="tooltip" data-placement="top" title="Clear response">Clear Response</button>
+
+    </div>
+    <div class="col-md-6 col-xs-6 flex-row flex-md-row-reverse flex-sm-row-reverse border-top border-bottom d-flex justify-content-lg-between pe-0 " >
+        <div class="">
+            <button type="button" class="btn btn-primary savebut"data-toggle="tooltip" data-placement="top" title="Save and Next">Save & Next</button>
+        </div>
+      <div class="px-6 border endbar" style="background-color:#e0f5ff;width:300px;padding-left:100px;">
+          <button type="button " class="btn btn-primary submitbut">Submit</button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row border d-lg-none d-xl-none" style="height:3em;
+      bottom: 9px;
+      width: 100%;">
+    <div class="col-md-6 col-sm-6">
+      <div class="px-2"style="float:left">
+          <button type="button" class="btn btn-white border "data-toggle="tooltip" data-placement="top" title="Clear response">Clear Response</button>
+      </div>
+     <div class="ps-2"style="float:left">
+       <button type="button" class="btn btn-white border"data-toggle="tooltip" data-placement="top" title="Mark For Review & Next">Mark For Review & Next</button>
+
+     </div>
+
+
+
+    </div>
+
+    <div class="col-md-6 col-sm-6 " >
+
+        <div class=""style="float:right">
+            <button type="button" class="btn btn-success "data-toggle="tooltip" data-placement="top" title="Save and Next">Save & Next</button>
+        </div>
+        <div class="px-6 " style="float:right">
+            <button type="button" class="btn btn-primary "style="float:right">Submit</button>
+        </div>
+
+
+    </div>
+  </div>
