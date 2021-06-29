@@ -1,12 +1,15 @@
 *{
-  margin:0;
+
   padding:0;
   box-sizing: border-box;
 }
 body{
+  position:fixed;
   min-height:100vh;
-  min-width:100vh;
+  width:100%;
+  min-width:1000px;
   font-size:.9em;
+  font-family: "Times New Roman", Times, serif;
 
 }
 .med{
@@ -45,7 +48,7 @@ button:hover {
 }
 .hi
 {
-  font-size:.8em
+  font-size:.9em
 }
 
 
@@ -100,7 +103,7 @@ button:hover {
      margin-right:0;
    }
    .active-cont{
-     margin-right:330px;
+     margin-right:308px;
    }
    #menu-btn
    {
